@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Kavoon', cursive;
+    
+}
+
+
+.City-Info{
+    background:#457B9D;
+    width:400px;
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+      
+}
+
+.City-Desc{
+    margin: 0;
+    background: #457B9D;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 200px;
+  
+}
+
+.Intro{
+    background-image:url("images/inland empire.jpg");
+    background-size:cover;
+    padding:20px 0 90px 0;
+    
+
+}
+
+h1,h2{
+    color:#ffffff;
+}
+
+.activity {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:space-around;
+    background:#A8DADC
+
+}
+.child-g{
+    background:#A8DADC;
+    padding:10px;
+}
+
+.activity img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+.guide{
+    /*border:1px solid blueviolet;*/
+    padding:20px;
+    margin:30px;
+    display:flex;
+    justify-content:space-around;
+    background-color:violet;
+    border-bottom: 6px solid #1D3557 ;
+    
+    
+}
+
+.guide img{
+    width:150px;
+    /*border:1px solid red;*/
+    
+}
+
+#guide-styling{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+    
+}
